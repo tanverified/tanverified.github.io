@@ -1,0 +1,13 @@
+$color-bg: #0a1734;
+$color-shadow: #071126;
+$color-shades: #0d1d42;
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 18px;
+  margin: 30px 0 30px 0;
+}

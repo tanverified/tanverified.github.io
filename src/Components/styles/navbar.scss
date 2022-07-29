@@ -1,0 +1,110 @@
+$deep-blue: #0a1734;
+$light-blue: #129de9;
+$color-shadow: #071126;
+$color-shades: #0d1d42;
+
+.Navbar {
+  display: grid;
+  grid-template-columns: 2fr 5fr 1fr;
+  grid-gap: 10px;
+  padding: 10px 10px 15px 10px;
+  position: sticky;
+  height: 60px;
+  top: 0;
+  width: 100%;
+  .nameLogo {
+    span {
+      font-size: 26px;
+      font-weight: bold;
+      cursor: pointer;
+      font-family: "source code pro";
+    }
+  }
+  .nav-btn {
+    border-radius: 33px;
+    border: none;
+    outline: none;
+    background: $deep-blue;
+    box-shadow: 10px 10px 20px #060d1d, -10px -10px 20px #0f214b;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    margin: 5px 10px 0 0;
+
+    &:hover {
+      color: $light-blue;
+      box-shadow: inset 2px 2px 5px $color-shadow,
+        inset -5px -5px 10px $color-shades;
+    }
+  }
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  li {
+    padding: 5px 10px 2px 10px;
+    margin-left: 30px;
+    border-bottom: 1px solid $deep-blue;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+
+    &:hover {
+      // color: $light-blue;
+      transform: scale(1.1);
+    }
+    a {
+      color: #fff;
+      transition: all 0.5s ease-in-out;
+
+      &:hover {
+        color: $light-blue;
+        // transform: scale(1.1);
+      }
+    }
+  }
+}
+
+.scrollNav {
+  background-color: #0e1b38;
+
+  nav {
+    li {
+      border-bottom: 1px solid #0e1b38;
+    }
+  }
+}
+
+.hamburger {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+  .hamburger {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 5px 10px;
+  }
+}
+
+.hide {
+  display: none;
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 0;
+  background: #0e1b38;
+  border-bottom: 1px solid #0e1b38;
+
+  li {
+    width: 100%;
+  }
+}
