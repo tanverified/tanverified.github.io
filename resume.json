@@ -1,0 +1,144 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Tanveer Khan",
+    "label": "Software Developer",
+    "image": "https://avatars.githubusercontent.com/u/62833134?v=4",
+    "email": "tanveer.codes@proton.me",
+    "url": "https://tanver.netlify.app/",
+    "summary": "I'm a software developer with a strong foundation in web development and full-stack projects, particularly focused on React, JavaScript, TypeScript, and the MERN stack. I thrive in collaborative environments, building scalable applications, and constantly improving my backend and DevOps skills.",
+    "location": {
+      "city": "Pune",
+      "countryCode": "IN",
+      "region": "Maharashtra"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "tanveer-k",
+        "url": "https://www.linkedin.com/in/tanveer-k"
+      },
+      {
+        "network": "GitHub",
+        "username": "tanverified",
+        "url": "https://github.com/tanverified"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Maxxton",
+      "location": "Pune, India",
+      "description": "Maxxton is an ERP software provider for vacation rental and hospitality industries.",
+      "position": "Software Developer",
+      "url": "https://www.maxxton.com",
+      "startDate": "2022-03-01",
+      "summary": "Worked on an innovative Content Management System that enhanced responsive web design,integrated search, and customizable booking modules.",
+      "highlights": [
+        "Implemented multiple features with best coding practices and industry standards, significantly reducing bugs in the codebase and improving overall code quality.",
+        "Collaborated with product management, design, QAs, and customer support teams to deliver high quality software in an agile environment."
+      ],
+      "keywords": [
+        "React.js",
+        "Express.js",
+        "TypeScript",
+        "Redux",
+        "Saga",
+        "i18next",
+        "Sass",
+        "Docker"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "freeCodeCamp",
+      "url": "https://www.freecodecamp.org",
+      "area": "JavaScript",
+      "studyType": "Certificate",
+      "startDate": "2020-01-01",
+      "endDate": "2020-12-01",
+      "score": "",
+      "courses": [
+        "JavaScript Algorithms and Data Structures",
+        "Responsive Web Design",
+        "Front End Development Libraries"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Frontend Development",
+      "level": "Advanced",
+      "keywords": ["React", "Redux", "JavaScript", "TypeScript", "Next.js"]
+    },
+    {
+      "name": "Backend Development",
+      "level": "Intermediate",
+      "keywords": ["Node.js", "Express", "MongoDB"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Exercise Web App",
+      "description": "Developed a user-friendly exercise app using React and Material UI with intuitive navigation and clear visual design.",
+      "highlights": [
+        "Integrated external APIs via Rapid API for real-time exercise data.",
+        "Reduced user research time by 50% and improved workout customization.",
+        "Ensured the app is responsive and accessible on multiple devices."
+      ],
+      "keywords": [
+        "React",
+        "Material UI",
+        "API Integration",
+        "Responsive Design"
+      ],
+      "startDate": "2023-01-01",
+      "endDate": "2023-06-01",
+      "url": "http://exerciseapp.example.com",
+      "roles": ["Frontend Developer"],
+      "type": "application"
+    },
+    {
+      "name": "User Management System",
+      "description": "Engineered a full-stack CRUD application for dynamic user data management.",
+      "highlights": [
+        "Developed a simple and user-friendly interface using React and CSS.",
+        "Implemented axios for efficient database interactions.",
+        "Enhanced app responsiveness and performance."
+      ],
+      "keywords": ["React", "CRUD", "Axios", "CSS"],
+      "startDate": "2022-10-01",
+      "endDate": "2023-01-01",
+      "url": "https://github.com/tanverified/user-management-system",
+      "roles": ["Full Stack Developer"],
+      "type": "application"
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Professional working proficiency"
+    },
+    {
+      "language": "Hindi",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Open Source Contributions",
+      "keywords": ["React", "JavaScript", "DevOps Tools"]
+    },
+    {
+      "name": "Cloud Computing",
+      "keywords": ["AWS", "Azure", "Serverless"]
+    }
+  ],
+  "references": [
+    {
+      "name": "Test",
+      "reference": "Test"
+    }
+  ]
+}
