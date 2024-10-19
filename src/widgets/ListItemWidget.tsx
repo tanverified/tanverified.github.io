@@ -14,7 +14,7 @@ export type ListItemWidgetProps = PropsWithChildren<{
   icon: IconProp;
   subtitles?: ListItemWidgetTitle[];
   textRight?: string;
-  className?: string | undefined;cag
+  className?: string | undefined;
 }>;
 
 export default function ListItemWidget({

@@ -5,9 +5,9 @@
     "label": "Software Developer",
     "image": "https://avatars.githubusercontent.com/u/62833134?v=4",
     "email": "tanveer.codes@proton.me",
-    "url": "http://tanveer.codes",
+    "url": "https://tanver.netlify.app/",
     "summary": "I'm a software developer with a strong foundation in web development and full-stack projects, particularly focused on React, JavaScript, TypeScript, and the MERN stack. I thrive in collaborative environments, building scalable applications, and constantly improving my backend and DevOps skills.",
-    "location": { 
+    "location": {
       "city": "Pune",
       "countryCode": "IN",
       "region": "Maharashtra"
@@ -34,11 +34,10 @@
       "url": "https://www.maxxton.com",
       "startDate": "2022-03-01",
       "endDate": "Present",
-      "summary": "Developed an innovative Content Management System to enhance responsive web design, integrated search, and customizable booking modules, increasing conversion rates by 50%.",
+      "summary": "Worked on an innovative Content Management System that enhanced responsive web design,integrated search, and customizable booking modules.",
       "highlights": [
-        "Contributed to over 2 million bookings last year, boosting Maxxton’s online booking module usage to 53.2%.",
-        "Implemented best coding practices to reduce bugs in the codebase.",
-        "Collaborated with cross-functional teams in an agile environment to deliver high-quality software."
+        "Implemented multiple features with best coding practices and industry standards, significantly reducing bugs in the codebase and improving overall code quality.",
+        "Collaborated with product management, design, QAs, and customer support teams to deliver high quality software in an agile environment."
       ],
       "keywords": [
         "React.js",
@@ -63,7 +62,8 @@
       "score": "",
       "courses": [
         "JavaScript Algorithms and Data Structures",
-        "Responsive Web Design"
+        "Responsive Web Design",
+        "Front End Development Libraries"
       ]
     }
   ],
@@ -76,12 +76,7 @@
     {
       "name": "Backend Development",
       "level": "Intermediate",
-      "keywords": ["Node.js", "Express", "MongoDB", "GraphQL"]
-    },
-    {
-      "name": "DevOps",
-      "level": "Intermediate",
-      "keywords": ["Docker", "CI/CD", "AWS", "Grafana"]
+      "keywords": ["Node.js", "Express", "MongoDB"]
     }
   ],
   "projects": [
@@ -143,8 +138,8 @@
   ],
   "references": [
     {
-      "name": "John Doe",
-      "reference": "Tanveer consistently delivers high-quality code and works well in teams. His technical and problem-solving skills are impressive."
+      "name": "Test",
+      "reference": "Test"
     }
   ]
 }
